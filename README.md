@@ -1,27 +1,33 @@
-# Stress Detection in IT Professionals
+Stress Detection in IT Professionals
+Overview
+Stress is a critical concern among IT professionals due to long working hours, tight deadlines, and high cognitive demands. This project focuses on detecting stress levels in IT professionals using data-driven and machine learning–based approaches. The goal is to analyze relevant features and build predictive models that can classify or estimate stress levels effectively.
 
-## Overview
-Stress has become a critical concern among IT professionals due to long working hours, tight deadlines, and high cognitive demands.  
-This project focuses on detecting stress levels in IT professionals using data-driven and machine learning–based approaches. The objective is to analyze relevant features and build predictive models that can classify or estimate stress levels effectively.
+Objectives
+Analyze stress-related data of IT professionals
 
-## Objectives
-- Analyze stress-related data of IT professionals
-- Perform data preprocessing and exploratory data analysis (EDA)
-- Train and evaluate machine learning models for stress detection
-- Compare model performance using standard evaluation metrics
+Perform data preprocessing and exploratory data analysis (EDA)
 
-## Tech Stack
-- **Programming Language:** Python  
-- **Libraries & Tools:**  
-  - NumPy  
-  - Pandas  
-  - Matplotlib / Seaborn  
-  - Scikit-learn  
-  - Jupyter Notebook  
+Train and evaluate machine learning models for stress detection
 
-## Project Structure
-```
+Compare model performance using standard evaluation metrics
 
+Tech Stack
+Programming language: Python
+
+Libraries & tools:
+
+NumPy
+
+Pandas
+
+Matplotlib / Seaborn
+
+Scikit-learn
+
+Jupyter Notebook
+
+Project Structure
+bash
 Stress-Detection-in-IT-Professional/
 │
 ├── data/                  # Dataset files (if applicable)
@@ -31,74 +37,85 @@ Stress-Detection-in-IT-Professional/
 ├── results/               # Output files, plots, or reports
 ├── requirements.txt       # Project dependencies
 └── README.md              # Project documentation
-
-````
-
-## Dataset
+Dataset
 The dataset contains features related to work conditions, mental health indicators, and other relevant factors affecting stress levels in IT professionals.
 
-> **Note:**  
-> Ensure the dataset is placed in the appropriate directory (e.g., `data/`) and update file paths in the code if required.
+Note:
+Place the dataset in the data/ directory (or appropriate location) and update file paths in the code if required.
 
-## Methodology
-1. **Data Preprocessing**
-   - Handling missing values
-   - Feature encoding and scaling
-2. **Exploratory Data Analysis (EDA)**
-   - Statistical analysis
-   - Data visualization
-3. **Model Training**
-   - Machine learning algorithms such as:
-     - Logistic Regression
-     - Decision Tree
-     - Random Forest
-     - Support Vector Machine (if applicable)
-4. **Model Evaluation**
-   - Accuracy
-   - Precision, Recall, F1-score
-   - Confusion Matrix
+Methodology
+Data preprocessing
 
-## Results
-The trained models are evaluated and compared to identify the most effective approach for stress detection.  
-Results and visualizations are available in the `results/` directory or within the notebooks.
+Handling missing values
 
-## Installation & Setup
-1. Clone the repository:
-   ```
-   git clone https://github.com/Vikramdatta18/Stress-Detection-in-IT-Professional.git
+Feature encoding and scaling
 
-```
-2. Navigate to the project directory:
+Exploratory data analysis (EDA)
 
-   ```
-   cd Stress-Detection-in-IT-Professional
-   ```
-3. Install dependencies:
+Statistical analysis
 
-   ```
-   pip install -r requirements.txt
-   ```
+Data visualization
 
-## Usage
+Model training
 
-* Open the Jupyter notebooks to explore data analysis and model training:
+Machine learning algorithms such as:
 
-  jupyter notebook
+Logistic Regression
 
-* Run the notebooks in sequence for preprocessing, training, and evaluation.
+Decision Tree
 
-## Future Enhancements
+Random Forest
 
-* Incorporate deep learning models
-* Use real-time or sensor-based stress data
-* Deploy the model as a web application
-* Improve model accuracy with feature engineering
+Support Vector Machine (if applicable)
 
-## Contributors
+Model evaluation
 
-* **Vikram Datta**
-## License
+Accuracy
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+Precision, recall, F1-score
 
+Confusion matrix
 
+Results
+The trained models are evaluated and compared to identify the most effective approach for stress detection. Results and visualizations are available in the results/ directory or within the Jupyter notebooks.
+
+Installation & Setup
+Clone the repository:
+
+bash
+git clone https://github.com/Vikramdatta18/Stress-Detection-in-IT-Professional.git
+Navigate to the project directory:
+
+bash
+cd Stress-Detection-in-IT-Professional
+Install dependencies:
+
+bash
+pip install -r requirements.txt
+Usage
+Launch Jupyter Notebook:
+
+bash
+jupyter notebook
+Open the project notebooks and run them in sequence for:
+
+Data preprocessing
+
+EDA
+
+Model training and evaluation
+
+Future Enhancements
+Incorporate deep learning models
+
+Use real-time or sensor-based stress data
+
+Deploy the model as a web application
+
+Improve model accuracy with advanced feature engineering
+
+Contributors
+Vikram Datta
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.

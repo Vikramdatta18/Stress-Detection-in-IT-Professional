@@ -64,18 +64,18 @@ Results and visualizations are available in the `results/` directory or within t
 
 ## Installation & Setup
 1. Clone the repository:
-   ```bash
+   ```
    git clone https://github.com/Vikramdatta18/Stress-Detection-in-IT-Professional.git
-````
 
+```
 2. Navigate to the project directory:
 
-   ```bash
+   ```
    cd Stress-Detection-in-IT-Professional
    ```
 3. Install dependencies:
 
-   ```bash
+   ```
    pip install -r requirements.txt
    ```
 
@@ -83,9 +83,8 @@ Results and visualizations are available in the `results/` directory or within t
 
 * Open the Jupyter notebooks to explore data analysis and model training:
 
-  ```bash
   jupyter notebook
-  ```
+
 * Run the notebooks in sequence for preprocessing, training, and evaluation.
 
 ## Future Enhancements

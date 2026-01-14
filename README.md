@@ -109,7 +109,7 @@ The trained models are evaluated and compared to identify the most effective app
 - Deploy the model as a web application  
 - Improve model accuracy with advanced feature engineering  
 
-## Contributors
+## Contributors 
 
 - **Vikram Datta**
 

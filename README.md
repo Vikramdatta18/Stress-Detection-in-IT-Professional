@@ -1,6 +1,4 @@
-Here’s the README content as code you can paste directly into `README.md`:
 
-```markdown
 # Stress Detection in IT Professionals
 
 ## Overview
@@ -26,7 +24,7 @@ Stress is a critical concern among IT professionals due to long working hours, t
 
 ## Project Structure
 
-```bash
+```
 Stress-Detection-in-IT-Professional/
 │
 ├── data/                  # Dataset files (if applicable)
@@ -75,19 +73,19 @@ The trained models are evaluated and compared to identify the most effective app
 
 1. Clone the repository:
 
-   ```bash
+   ```
    git clone https://github.com/Vikramdatta18/Stress-Detection-in-IT-Professional.git
    ```
 
 2. Navigate to the project directory:
 
-   ```bash
+   ```
    cd Stress-Detection-in-IT-Professional
    ```
 
 3. Install dependencies:
 
-   ```bash
+   ```
    pip install -r requirements.txt
    ```
 
@@ -95,7 +93,7 @@ The trained models are evaluated and compared to identify the most effective app
 
 - Launch Jupyter Notebook:
 
-  ```bash
+  ```
   jupyter notebook
   ```
 
@@ -120,4 +118,3 @@ The trained models are evaluated and compared to identify the most effective app
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 ```
 
-Do you want a shorter, one-paragraph version for the GitHub repo description as well?
